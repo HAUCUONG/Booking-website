@@ -1,0 +1,14 @@
+.navbar {
+  background-color: #0c5192;
+}
+
+.body {
+  margin: 24px 100px 0;
+  display: flex;
+  gap: 20px;
+}
+
+.footer {
+  background-color: #0c5192;
+  padding: 24px 0;
+}

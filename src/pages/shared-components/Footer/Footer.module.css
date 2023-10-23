@@ -1,0 +1,31 @@
+.footer {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  color: #0c5192;
+  font-size: 12px;
+}
+
+.footer div {
+  flex: 1 1 0px;
+}
+
+.footer p {
+  margin-top: 8px;
+}
+
+.search_footer {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  color: #fff;
+  font-size: 12px;
+}
+
+.search_footer div {
+  flex: 1 1 0px;
+}
+
+.search_footer p {
+  margin-top: 8px;
+}

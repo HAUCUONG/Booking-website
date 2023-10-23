@@ -1,0 +1,116 @@
+.navbar {
+  background-color: #0c5192;
+}
+
+/*---------------------------*/
+.detail {
+  margin: 24px auto 0;
+  width: 80%;
+  position: relative;
+}
+
+.div1 * {
+  margin-top: 8px;
+}
+
+.div1 span {
+  font-size: 14px;
+  margin-right: 8px;
+}
+
+.div1 p:nth-child(4) {
+  color: #378edf;
+  font-weight: 600;
+}
+
+.div1 p:nth-child(5) {
+  color: #0eaf0e;
+  font-weight: 600;
+}
+
+.div1 button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 20px;
+  background-color: #378edf;
+  color: #fff;
+  border-radius: 6px;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.div2 {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 5px;
+}
+
+.div2 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.div3 {
+  margin-top: 32px;
+  display: flex;
+  gap: 30px;
+}
+
+.div3 div:first-child {
+  flex-grow: 1;
+}
+
+.div3 div:first-child p {
+  margin-top: 16px;
+  font-size: 14px;
+}
+
+.div3 div:last-child {
+  font-size: 14px;
+  flex: 0 0 265px;
+  padding: 15px;
+  background-color: #c4e4ff;
+}
+
+.div3 div:last-child p:first-child {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.div3 div:last-child p:nth-child(2) {
+  margin-top: 24px;
+}
+
+.div3 div:last-child p:nth-child(3) {
+  font-size: 24px;
+  margin-top: 24px;
+}
+
+.div3 div:last-child button {
+  width: 100%;
+  margin-top: 24px;
+  padding: 10px 0;
+  background-color: #378edf;
+  color: #fff;
+  border-radius: 6px;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* -------------------------- */
+.form {
+  background-color: #0c5192;
+  margin-top: 48px;
+  padding: 48px 0;
+}
+
+/* -------------------------- */
+.footer {
+  margin: 24px 0;
+}

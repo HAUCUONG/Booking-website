@@ -1,0 +1,27 @@
+.navbar {
+  width: 70%;
+  color: #fff;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.navbar div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar button {
+  margin-left: 20px;
+  padding: 4px 8px;
+  color: #0c5192;
+  border: none;
+}
+
+.navbar nav {
+  margin-top: 20px;
+}
+
+.navbar nav ul {
+  display: flex;
+  gap: 30px;
+}

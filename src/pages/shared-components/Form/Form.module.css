@@ -1,0 +1,28 @@
+.form :is(h1, p, div) {
+  text-align: center;
+  color: #fff;
+}
+
+.form p {
+  margin-top: 24px;
+}
+
+.form div {
+  margin-top: 16px;
+}
+
+.form input {
+  width: 320px;
+  padding: 12px 8px;
+  margin-right: 8px;
+  border-radius: 6px;
+  border: none;
+}
+
+.form button {
+  padding: 12px 8px;
+  border-radius: 6px;
+  background-color: #378edf;
+  color: #fff;
+  border: none;
+}

@@ -1,0 +1,77 @@
+.header {
+  width: 70%;
+  margin: 24px auto 0;
+  color: #fff;
+  position: relative;
+}
+
+.header p {
+  margin-top: 24px;
+}
+
+.header > button {
+  margin-top: 18px;
+  background-color: #378edf;
+  color: #fff;
+  padding: 10px 5px;
+  border: none;
+}
+
+.search {
+  padding: 6px 30px;
+  margin-top: 44px;
+  transform: translateY(50%);
+  border: 2px solid #fcc735;
+  border-radius: 6px;
+  background-color: #fff;
+  display: flex;
+  gap: 10px;
+}
+
+.search div {
+  flex: 1 1 0px;
+  display: flex;
+  position: relative;
+}
+
+.search input {
+  flex: 1 1 auto;
+  outline: none;
+  border: none;
+  margin-left: 30px;
+}
+
+.icon {
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 30px;
+  color: #ced4da;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search input:focus ~ .icon {
+  color: #868e96;
+}
+
+.search button {
+  background-color: #378edf;
+  border: none;
+  padding: 8px 6px;
+  color: #fff;
+}
+
+.search button:hover {
+  cursor: pointer;
+  background-color: #1c7ed6;
+}
+
+/* ------DateRange------- */
+.date {
+  position: absolute;
+  top: 109%;
+  left: 33%;
+  z-index: 10;
+}

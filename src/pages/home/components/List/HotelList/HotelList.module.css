@@ -1,0 +1,38 @@
+.container {
+  width: 70%;
+  margin: 24px auto 0;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 24px;
+}
+
+.list div {
+  width: 100%;
+}
+
+.list img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.text :is(h4, p, div) {
+  margin-top: 8px;
+}
+
+.text a:link {
+  color: rgb(125, 33, 211);
+}
+
+.text span:nth-child(1) {
+  padding: 4px;
+  margin-right: 16px;
+  border: 1px solid #000;
+  background-color: #0c5192;
+  color: #fff;
+  font-weight: bold;
+}

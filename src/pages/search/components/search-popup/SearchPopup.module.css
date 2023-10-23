@@ -1,0 +1,57 @@
+.container {
+  background-color: #ffbe33;
+  padding: 12px;
+  border-radius: 9px;
+  flex: 0 0 25%;
+  height: min-content;
+}
+
+.container h3 {
+  font-size: 22px;
+}
+
+.form {
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+.form > div:not(:first-child) {
+  margin-top: 12px;
+}
+
+.form > div:not(:last-child) input {
+  margin-top: 4px;
+  padding: 6px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.form div:not(:last-child) input::placeholder {
+  color: #000;
+}
+
+.title {
+  font-weight: 600;
+}
+
+.search_info div:not(:first-child) {
+  margin: 16px 0 0 12px;
+  color: #495057;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search_info div:not(:first-child) input {
+  width: 60px;
+  padding: 0 6px;
+}
+
+.container button {
+  margin-top: 32px;
+  width: 100%;
+  background-color: #378edf;
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+  font-weight: 500;
+}

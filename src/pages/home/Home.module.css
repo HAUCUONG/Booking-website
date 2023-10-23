@@ -1,0 +1,17 @@
+.head {
+  background-color: #0c5192;
+}
+
+.lists {
+  margin-top: 48px;
+}
+
+.form {
+  background-color: #0c5192;
+  margin-top: 64px;
+  padding: 48px 0;
+}
+
+.footer {
+  margin: 24px 0;
+}
